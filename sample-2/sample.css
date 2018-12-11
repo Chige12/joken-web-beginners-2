@@ -1,0 +1,74 @@
+/* header */
+header {
+  margin-top: 40px;
+}
+header h1 {
+  background: lightgrey;
+}
+
+/* main */
+main {
+  font-size: 16px;
+}
+section.advice {
+  background: #52443c;
+  color: white;
+  padding: 60px;
+}
+h2,p {
+  padding: 0 30px;
+}
+.advice .notes {
+  font-size: 14px;
+}
+
+.conclusion {
+  margin: 30px;
+  padding: 10px;
+  background: white;
+}
+.conclusion p {
+  text-align: center;
+  color: darkorange;
+  font-weight: bold;
+}
+.conclusion .top-text {
+  font-size: 24px;
+}
+.conclusion .content {
+  font-size: 20px;
+}
+
+section.sample {
+  background: #ddd;
+}
+.sample-1,.sample-2 {
+  border-top: 1px solid black;
+  padding: 20px;
+}
+.sample-1 .sample-box,.sample-2 .sample-box {
+  border: 1px solid #aaa;
+  background: white;
+  margin: 0 30px;
+}
+
+/*スライドにでてたサンプルのCSS*/
+.sample-1 p.sample-propaty {
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration-line: underline;
+  border: 2px double red;
+  cursor: pointer;
+}
+.sample-2 p.sample-propaty {
+  width: 100px;
+  height: 100px;
+  margin: 12px;
+  padding: 8px;
+  background: red;
+  color: #fff;
+}
+
+
+/* footer */
+/* あえて記述なし */

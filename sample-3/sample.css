@@ -1,0 +1,13 @@
+html {
+  font-size:62.5%;
+}
+body {
+  font-size:1.6rem;
+}
+.container {
+  width: 920px;
+  margin: auto;
+}
+header,footer {
+  background-color: cadetblue;
+}

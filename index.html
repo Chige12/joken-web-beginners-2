@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>会員登録フォーム</title>
+</head>
+<body>
+    <img src="./images.png" alt="ロゴ">
+    <!-- なんのページか -->
+    <h1>偉人の会登録フォーム</h1>
+
+    <!-- 偉人の会の説明 -->
+    <h2># 偉人の会とは</h2>
+    <p>
+        偉人の会とは自分が偉人であることを宣言したものの集まりである．<br>
+        基本的に一度入会すれば脱退は認めらないが
+        <strong>入会すれば周りからの視線が変わる!!</strong>
+        <s>
+          <small>もちろんいい意味でである</small>
+        </s>
+    </p>
+
+    <h3>本部所在地</h3>
+    <p>
+      〒：XXX-YYY<br>
+      東京都千代田区霞が関1丁目地下65階
+    </p>
+
+    <!-- 入会条件を書く -->
+    <h2># 入会するには</h2>
+    <p>以下のフォームから申し込めば入会できる</p>
+
+    <!-- フォーム -->
+    <form>
+        <!-- テキストを右揃えにするためにテーブルを利用してフォームを作成 -->
+        <table>
+            <tbody>
+                <!-- 名前の入力 -->
+                <tr>
+                    <td>お名前</td>
+                    <td>
+                      <input type="text"><br>
+                      <small>フルネームでご記入ください</small>
+                    </td>
+                </tr>
+
+                <!-- パスワードの入力 -->
+                <tr>
+                    <td>パスワード</td>
+                    <td>
+                      <input type="password"><br>
+                      <input type="password">
+                      <strong>※2回入力してください</strong>
+                    </td>
+                </tr>
+
+                <!-- 誕生日の入力 -->
+                <tr>
+                    <td>誕生日</td>
+                    <td><input type="date"></td>
+                </tr>
+
+                <!-- 性別の入力 -->
+                <tr>
+                    <td>性別</td>
+                    <td>
+                      男<input type="radio" name="gen"><br>
+                      女<input type="radio" name="gen">
+                    </td>
+                </tr>
+
+                <!-- メールアドレスの入力 -->
+                <tr>
+                    <td>メールアドレス</td>
+                    <td><input type="email"></td>
+                </tr>
+
+                <!-- 色の選択 -->
+                <tr>
+                    <td>貴色の選択</td>
+                    <td><input type="color"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- 利用規約に同意させる -->
+        <input type="checkbox">利用規約に同意する<br>
+
+        <!-- 送信ボタン -->
+        <input type="submit" value="登録する">
+    </form>
+    
+</body>
+</html>
