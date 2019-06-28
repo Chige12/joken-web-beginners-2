@@ -15,29 +15,29 @@ header,footer {
   background-color: cadetblue;
 }
 
-.favorite ul {
+.favorite__siteLists {
   list-style: none;
   display: flex;
 }
-.favorite ul li {
+.favorite__siteLists li {
   width: 30%;
   text-align: center;
   margin: 4px;
 }
-.favorite ul li img {
+.favorite__siteLists li img {
   display: block;
   width: 100%;
   height: 60px;
   background-color: #444;
 }
 
-.wrapper {
+form .wrapper {
   display: flex;
 }
-.wrapper .property {
+form .wrapper__property {
   width: 100px;
 }
-.wrapper input {
+form .wrapper__input {
   border: 1px solid #444;
 }
 
